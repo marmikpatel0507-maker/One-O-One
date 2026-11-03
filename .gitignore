@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Secrets and credentials: never commit these
+.env
+*.key
+*.pem
+*.ovpn
+credentials*
+secrets*
+
+# Virtual machine files (large and unnecessary)
+*.vdi
+*.vmdk
+*.ova
+*.iso
+VirtualBox VMs/
+
+# Misc
+*.log
+*.tmp
